@@ -9,7 +9,7 @@ RUN set -ex \
 
 ENV BITCOIN_VERSION 26.1.0
 ENV BITCOIN_URL "https://github.com/bitcoin-cash-node/bitcoin-cash-node/releases/download/v$BITCOIN_VERSION/bitcoin-cash-node-$BITCOIN_VERSION-x86_64-linux-gnu.tar.gz"
-ENV BITCOIN_SHA256 e32e05fd63161f6f1fe717fca789448d2ee48e2017d3d4c6686b4222fe69497e
+ENV BITCOIN_SHA256 68cb24d57898d5b47a1162a9683d0b0e36c6701b5a16b93edc94bbd82113c04b
 
 # install bitcoin binaries
 RUN set -ex \
